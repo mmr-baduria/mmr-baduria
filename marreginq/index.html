@@ -150,8 +150,8 @@
 
       let lastSearched = "";
 
-      const validPattern =
-        /^(\d{2}[A-Z]\/\d{2,3}\/\d{4}|[A-Z]\d\/\d{2,3}\/\d{4})$/;
+      const validPattern = /^(\d{2}[A-Z]\/\d{2,3}\/\d{4}|[A-Z]\d\/\d{2,3}\/\d{4}|[A-Z]+-[A-Z]+-\d{10})$/;
+
 
       function showLoader() {
         outputEl.innerHTML = `<div class="loader"></div>`;
